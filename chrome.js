@@ -20,7 +20,7 @@ const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
 
 
-//this function is now dynamic and can be used on
+//this function is now dynamic and can be used on any array instead of only myLeads
 function render(leads){
     let listItems = " "
     for(let i=0; i< leads.length; i++){
